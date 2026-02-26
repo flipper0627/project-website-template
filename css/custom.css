@@ -2,6 +2,24 @@
  * Your custom CSS file
  *************************************************************************/
 
+body {
+  background-color: navy;
+}
+
+body, p, h1, h2, h3, .text, .flex-item {
+  color: white !important;
+}
+
+a, .highlight-text, .menu-index, .menu-items a, h2, hr {
+  color: hotpink !important;
+  border-color: hotpink !important;
+}
+
+.menu-items a:hover {
+  color: hotpink !important;
+  opacity: 0.8;
+}
+
 .custom-dropdown {
   width: 240px;
 }
@@ -30,5 +48,5 @@
 
 #share-url-copy-prompt {
   display: none;
-  color: #007bff;
+  color: hotpink;
 }
